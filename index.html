@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--this links the css file created to this page. rel specifies the relation between the css file and the html file. href specifies the location of the css file-->
+    <link rel="stylesheet" href="./assets/style.css">
+
     <title>Prework Study Guide Joshua
     </title>
   </head>
+
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
@@ -26,20 +31,36 @@
           <li>Img is used to add images to the page. You use src to import the image and use width and height to change its size on the page </li>
         </ul>
       </section>
+
+      <br />
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Selectors are is the first component before any piece of code. Common selectors are *, img, ect. These determine what part of the page you are affecting </li>
+          <li>A CSS rule is started with a selector then brackets are used to contain the declarations. The declarations is the code thats changes the element.</li>
+          <li>The * selector effects the entire page. The img selector effects all images on a page.</li>
+          <li>Margins are the space around the elements in a page.</li>
+          <li>Padding is the space around an element. Changing this effects how much space between the margin and the elements.</li>
+          <li>To add CSS code from a file to the html page you use the link tag in the head section. rel spefifies the relation between the CSS file and the html file. href specifies the location of the css file.</li>
         </ul>
       </section>
-   
+      
+      <br />
+
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Enter your Git notes here</li>
+          <li>The "git status" command checks what branch we are currently on. </li>
+          <li>"Checkout" lets us switch branches. Ex: git checkout main.</li>
+          <li>The "checkout -b" command lets us create a new branch in the project. Ex: git checkout -b branch-name</li>
+          <li>When changes to the project are made "add" can be used to stage the files. You can add specific files or all files with -A. Ex: git add -A</li>
+          <li>To commit the changes "commit" will add the changes to the file online. -m can be used to add a message with this change. Ex: git commit -m "added code"</li>
+          <li>To check that a branch is up to date you can use "pull origin branch". Its good practice to check that things are up to date before opening a pull request. Ex: git pull origin main</li>
         </ul>
       </section>
+
+      <br />
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
